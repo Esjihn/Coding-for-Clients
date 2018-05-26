@@ -1,0 +1,6 @@
+D:\C#\Strings\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+D:\C#\Strings\Strings\bin\Debug\Strings.exe.config
+D:\C#\Strings\Strings\bin\Debug\Strings.exe
+D:\C#\Strings\Strings\bin\Debug\Strings.pdb
+D:\C#\Strings\Strings\obj\Debug\Strings.exe
+D:\C#\Strings\Strings\obj\Debug\Strings.pdb

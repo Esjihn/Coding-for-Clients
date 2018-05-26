@@ -1,0 +1,273 @@
+﻿@model DOE.OELPFP.WebUI.Models.ApplicationViewModel
+@using DOE.OELPFP.WebUI.Infrastructure
+@{
+    string programYear = "2018-19";
+
+    ViewBag.Title = string.Format("{0} {1} Application", programYear, ViewHelper.ApplicationTitle);
+    ViewBag.PageHeader = ViewBag.Title;
+    ViewBag.PageHeaderDescription = "";
+    ViewBag.TitleForBreadcrumb = string.Format("{0} Application", programYear);
+}
+
+<div id="application-wrapper" class="subpage">
+    @* Let's make some progress *@
+    <div class="row row-progress">
+        <div class="progress progress-striped">
+            <div id="progress" class="progress-bar" role="progressbar"
+                 aria-valuenow="0"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 data-bind="text: progress() + '% Complete',
+                            attr: { 'aria-valuenow': progress() },
+                            style: { width: progress() < 1 ? '14%' : progress() + '%' }"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-xs-9 content-container hidden">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 wizard-tab-menu">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active text-center step1" data-step-name="Acknowledgement">
+                        <span class="fa fa-warning"></span> Acknowledgement
+                    </a>
+                    <a href="#" class="list-group-item text-center step2" data-step-name="Profile">
+                        <span class="fa fa-user"></span> Profile
+                    </a>
+                    <a href="#" class="list-group-item text-center step3" data-step-name="Form">
+                        <span class="fa fa-file-text"></span> Form
+                    </a>
+                    <a href="#" class="list-group-item text-center step4" data-step-name="Instructors">
+                        <span class="fa fa-users"></span> Instructors
+                    </a>
+                    <a href="#" class="list-group-item text-center step5" data-step-name="Classrooms">
+                        <span class="fa fa-graduation-cap"></span> Classrooms
+                    </a>
+                    <a href="#" class="list-group-item text-center step6" data-step-name="Assignments">
+                        <span class="fa fa-random"></span> Assignments
+                    </a>
+                    <a href="#" class="list-group-item text-center last-tab step7" data-step-name="Confirmation">
+                        <span class="filler">
+                            <span class="fa fa-check-square-o"></span> Confirmation
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 wizard-tab">
+                <div data-bind="template: { name: 'currentTemplate',
+                                            data: currentStep,
+                                            afterRender: currentStep().model().initViewModel}"></div>
+
+                @* Template to hold the current step *@
+                <script id="currentTemplate" type="text/html">
+                    @using (Html.BeginForm("Application", "Application", FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+                    {
+                        <input name="TargetStep" id="TargetStep" type="hidden" />
+
+                        <div class="row step-navigation step-navigation-top">
+                            <div class="col-xs-7 step-name">
+                                <h3><span data-bind="css: model().stepIconCssClass"></span> <span data-bind="html: model().stepName"></span></h3>
+                            </div>
+                            <div class="col-xs-5 step-buttons">
+                                <button data-bind="click: $root.goPrevious, visible: $root.canGoPrevious, enable: $root.modelIsValid" class="btn btn-default" id="previous-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">&laquo; Previous</button>
+                                <button data-bind="click: $root.goNext, visible: $root.canGoNext, enable: $root.modelIsValid" class="btn btn-secondary" id="next-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">Next &raquo;</button>
+                                <button data-bind="click: $root.submit, visible: $root.canSubmit" class="btn btn-secondary" id="submit-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">Confirm &amp; Submit</button>
+                            </div>
+                            <div class="col-xs-12"><hr /></div>
+                        </div>
+
+                        <div data-bind="template: { name: getTemplate, data: model }"></div>
+
+                        <div class="row step-navigation step-navigation-bottom">
+                            <div class="col-xs-12"><hr /></div>
+                            <div class="col-xs-5 step-name">
+                                <button data-bind="click: $root.saveAndExit" class="btn btn-default" id="submit-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">Save &amp; Exit</button>
+                            </div>
+                            <div class="col-xs-2 step-name">
+                            </div>
+                            <div class="col-xs-5 step-buttons">
+                                <button data-bind="click: $root.goPrevious, visible: $root.canGoPrevious, enable: $root.modelIsValid" class="btn btn-default" id="previous-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">&laquo; Previous</button>
+                                <button data-bind="click: $root.goNext, visible: $root.canGoNext, enable: $root.modelIsValid" class="btn btn-secondary" id="next-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">Next &raquo;</button>
+                                <button data-bind="click: $root.submit, visible: $root.canSubmit" class="btn btn-secondary" id="submit-button" data-loading-text="@string.Format("<i class='icon-spinner icon-spin icon-large'></i> {0}", "Please wait...")">Confirm &amp; Submit</button>
+                            </div>
+                        </div>
+                    }
+                </script>
+
+                @* The individual step templates *@
+                <script id="acknowledgementTemplate" type="text/html">
+                    <div class="wizard-tab-content active" data-step-name="Acknowledgement">
+                        @Html.Partial("_Acknowledgement", Model)
+                    </div>
+                </script>
+
+                <script id="profileTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Profile">
+                        @Html.Partial("_Profile", Model)
+                    </div>
+                </script>
+
+                <script id="formTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Form">
+                        @Html.Partial("_Form", Model)
+                    </div>
+                </script>
+
+                <script id="instructorListReturningTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Instructors">
+                        @Html.Partial("_InstructorsReturning", Model)
+                    </div>
+                </script>
+
+                <script id="instructorListNewTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Instructors">
+                        @Html.Partial("_InstructorsNew", Model)
+                    </div>
+                </script>
+
+                <script id="instructorListDetailsTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Instructors">
+                        @Html.Partial("_InstructorsDetails", Model)
+                    </div>
+                </script>
+
+                <script id="classroomListTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Classrooms">
+                        @Html.Partial("_Classrooms", Model)
+                    </div>
+                </script>
+
+                <script id="assignmentListTemplate" type="text/html">
+                        <div class="wizard-tab-content" data-step-name="Assignments">
+                            @Html.Partial("_Assignments", Model)
+                        </div>
+                    </script>
+
+                <script id="confirmationTemplate" type="text/html">
+                    <div class="wizard-tab-content" data-step-name="Confirmation">
+                        @Html.Partial("_Confirmation", Model)
+                    </div>
+                </script>
+
+
+            </div>
+        </div>
+    </div>
+
+    @*Classroom Notice Modal -- Start*@
+    <div class="modal fade" id="classroomNoticeModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Notice</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You are required to enter all birth through age five classrooms that your provider center offers in order to participate in the program. Failure to enter all birth through age five classrooms or entering classroom details incorrectly will have an impact on your eligibility to participate in the program. You will not have the opportunity to <b>add</b> or <b>edit</b> classroom information after your application has been submitted.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-bind="click: classroomNoticeModalHandler">Okay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*Classroom Notice Modal -- End*@
+
+    @*Classroom Confirmation Modal -- Start*@
+    <div class="modal fade" id="classroomConfirmationModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Confirm classrooms</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Have you entered all birth through age five classrooms?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bind="click: classroomConfirmationModalHandler.bind($data, true)" value="true">Yes</button>
+                    <button type="button" class="btn btn-default" data-bind="click: classroomConfirmationModalHandler.bind($data, false)" value="false">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*Classroom Confirmation Modal -- End*@
+
+    @*Submit Confirmation Modal -- Start*@
+    <div class="modal fade" id="submitConfirmationModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Confirm submit</h4>
+                </div>
+                <div class="modal-body">
+                    <p>You will not have the opportunity to edit classroom details or add more classrooms once the application is submitted. Missing information or incorrect details will have an impact on your eligibility to participate in the program. Please confirm that your list of classrooms is complete and correct.</p>
+
+                    <div style="max-height: 400px; overflow-y: auto;">
+                        <table class="table table-striped table-bordered" id="classroomList">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Classroom Name</th>
+                                    <th class="text-center">Care level</th>
+                                    <th class="text-center">Description</th>
+                                    <th class="text-center">Status Date</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: classroomListViewModel().classrooms">
+                                <tr>
+                                    <td class="col-sm-2" data-bind="text: name"></td>
+                                    <td data-bind="text: aggregateCareLevelName"></td>
+                                    <td data-bind="text: description"></td>
+                                    <td class="text-center date-time" data-bind="text: classroomStatusDate"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bind="click: submitConfirmationModalHandler.bind($data, true)" value="true">Confirm & Submit</button>
+                    <button type="button" class="btn btn-default" data-bind="click: submitConfirmationModalHandler.bind($data, false)" value="false">Edit Classrooms</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*Submit Confirmation Modal -- End*@
+</div>
+
+@*<script>
+        function jump() {
+            switch (window.location.hash) {
+                case "#0":
+                    $('#AcknowledgementViewModel_ContactName').val('My Name');
+                    $('#AcknowledgementViewModel_ContactTitle').val('My Title');
+                    $('#AcknowledgementViewModel_ContactEmail').val('email@email.com');
+                    $('label input[type=checkbox]').prop('checked', true);
+                case "#1":
+                case "#2":
+                case "#3":
+                case "#4":
+                    $('#next-button').click();
+                    setJump();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        function setJump() {
+            setTimeout(jump, 600);
+        }
+
+
+            setTimeout(jump, 1000);
+
+
+    </script>*@
+
+@section head {
+    @Styles.Render(Fingerprint.Tag("~/content/themes/oel/css/bootstrap-editable.css"))
+}

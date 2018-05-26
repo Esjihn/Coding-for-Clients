@@ -1,0 +1,7 @@
+D:\C#\Variables.Program\Variables.Program\obj\Debug\Variables.Program.csprojAssemblyReference.cache
+D:\C#\Variables.Program\Variables.Program\obj\Debug\Variables.Program.csproj.CoreCompileInputs.cache
+D:\C#\Variables.Program\Variables.Program\bin\Debug\Variables.Program.exe.config
+D:\C#\Variables.Program\Variables.Program\bin\Debug\Variables.Program.exe
+D:\C#\Variables.Program\Variables.Program\bin\Debug\Variables.Program.pdb
+D:\C#\Variables.Program\Variables.Program\obj\Debug\Variables.Program.exe
+D:\C#\Variables.Program\Variables.Program\obj\Debug\Variables.Program.pdb
