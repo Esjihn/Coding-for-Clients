@@ -1,0 +1,6 @@
+D:\OneDrive\C#\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe.config
+D:\OneDrive\C#\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe
+D:\OneDrive\C#\WhileLoop\WhileLoop\bin\Debug\WhileLoop.pdb
+D:\OneDrive\C#\WhileLoop\WhileLoop\obj\Debug\WhileLoop.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\WhileLoop\WhileLoop\obj\Debug\WhileLoop.exe
+D:\OneDrive\C#\WhileLoop\WhileLoop\obj\Debug\WhileLoop.pdb

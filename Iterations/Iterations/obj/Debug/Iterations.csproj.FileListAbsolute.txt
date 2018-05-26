@@ -1,0 +1,6 @@
+D:\OneDrive\C#\Iterations\Iterations\bin\Debug\Iterations.exe.config
+D:\OneDrive\C#\Iterations\Iterations\bin\Debug\Iterations.exe
+D:\OneDrive\C#\Iterations\Iterations\bin\Debug\Iterations.pdb
+D:\OneDrive\C#\Iterations\Iterations\obj\Debug\Iterations.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\Iterations\Iterations\obj\Debug\Iterations.exe
+D:\OneDrive\C#\Iterations\Iterations\obj\Debug\Iterations.pdb

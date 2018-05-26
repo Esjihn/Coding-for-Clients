@@ -1,0 +1,6 @@
+D:\OneDrive\C#\Random\Random\bin\Debug\Random.exe.config
+D:\OneDrive\C#\Random\Random\bin\Debug\Random.exe
+D:\OneDrive\C#\Random\Random\bin\Debug\Random.pdb
+D:\OneDrive\C#\Random\Random\obj\Debug\RandomNumber.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\Random\Random\obj\Debug\Random.exe
+D:\OneDrive\C#\Random\Random\obj\Debug\Random.pdb

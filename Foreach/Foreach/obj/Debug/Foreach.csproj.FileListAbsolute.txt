@@ -1,0 +1,6 @@
+D:\OneDrive\C#\Foreach\Foreach\bin\Debug\Foreach.exe.config
+D:\OneDrive\C#\Foreach\Foreach\bin\Debug\Foreach.exe
+D:\OneDrive\C#\Foreach\Foreach\bin\Debug\Foreach.pdb
+D:\OneDrive\C#\Foreach\Foreach\obj\Debug\Foreach.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\Foreach\Foreach\obj\Debug\Foreach.exe
+D:\OneDrive\C#\Foreach\Foreach\obj\Debug\Foreach.pdb
