@@ -1,0 +1,7 @@
+D:\C#\SpeedCamera\SpeedCamera\bin\Debug\SpeedCamera.exe.config
+D:\C#\SpeedCamera\SpeedCamera\bin\Debug\SpeedCamera.exe
+D:\C#\SpeedCamera\SpeedCamera\bin\Debug\SpeedCamera.pdb
+D:\C#\SpeedCamera\SpeedCamera\obj\Debug\SpeedCamera.csprojAssemblyReference.cache
+D:\C#\SpeedCamera\SpeedCamera\obj\Debug\SpeedCamera.csproj.CoreCompileInputs.cache
+D:\C#\SpeedCamera\SpeedCamera\obj\Debug\SpeedCamera.exe
+D:\C#\SpeedCamera\SpeedCamera\obj\Debug\SpeedCamera.pdb
