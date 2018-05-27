@@ -1,0 +1,7 @@
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\obj\Debug\ValidorNot.csprojAssemblyReference.cache
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\obj\Debug\ValidorNot.csproj.CoreCompileInputs.cache
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\bin\Debug\ValidorNot.exe.config
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\bin\Debug\ValidorNot.exe
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\bin\Debug\ValidorNot.pdb
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\obj\Debug\ValidorNot.exe
+C:\Users\sysno\source\repos\ValidorNot\ValidorNot\obj\Debug\ValidorNot.pdb
