@@ -1,0 +1,7 @@
+D:\C#\CSSumNumArray\CSSumNumArray\obj\Debug\CSSumNumArray.csprojAssemblyReference.cache
+D:\C#\CSSumNumArray\CSSumNumArray\obj\Debug\CSSumNumArray.csproj.CoreCompileInputs.cache
+D:\C#\CSSumNumArray\CSSumNumArray\bin\Debug\CSSumNumArray.exe.config
+D:\C#\CSSumNumArray\CSSumNumArray\bin\Debug\CSSumNumArray.exe
+D:\C#\CSSumNumArray\CSSumNumArray\bin\Debug\CSSumNumArray.pdb
+D:\C#\CSSumNumArray\CSSumNumArray\obj\Debug\CSSumNumArray.exe
+D:\C#\CSSumNumArray\CSSumNumArray\obj\Debug\CSSumNumArray.pdb

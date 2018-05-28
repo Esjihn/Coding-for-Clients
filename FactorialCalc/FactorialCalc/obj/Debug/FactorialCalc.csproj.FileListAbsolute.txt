@@ -1,0 +1,7 @@
+D:\C#\FactorialCalc\FactorialCalc\bin\Debug\FactorialCalc.exe.config
+D:\C#\FactorialCalc\FactorialCalc\bin\Debug\FactorialCalc.exe
+D:\C#\FactorialCalc\FactorialCalc\bin\Debug\FactorialCalc.pdb
+D:\C#\FactorialCalc\FactorialCalc\obj\Debug\FactorialCalc.csprojAssemblyReference.cache
+D:\C#\FactorialCalc\FactorialCalc\obj\Debug\FactorialCalc.csproj.CoreCompileInputs.cache
+D:\C#\FactorialCalc\FactorialCalc\obj\Debug\FactorialCalc.exe
+D:\C#\FactorialCalc\FactorialCalc\obj\Debug\FactorialCalc.pdb

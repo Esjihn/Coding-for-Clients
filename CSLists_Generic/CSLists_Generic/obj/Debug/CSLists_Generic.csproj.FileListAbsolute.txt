@@ -1,0 +1,7 @@
+D:\C#\CSLists_Generic\CSLists_Generic\bin\Debug\CSLists_Generic.exe.config
+D:\C#\CSLists_Generic\CSLists_Generic\bin\Debug\CSLists_Generic.exe
+D:\C#\CSLists_Generic\CSLists_Generic\bin\Debug\CSLists_Generic.pdb
+D:\C#\CSLists_Generic\CSLists_Generic\obj\Debug\CSLists_Generic.csprojAssemblyReference.cache
+D:\C#\CSLists_Generic\CSLists_Generic\obj\Debug\CSLists_Generic.csproj.CoreCompileInputs.cache
+D:\C#\CSLists_Generic\CSLists_Generic\obj\Debug\CSLists_Generic.exe
+D:\C#\CSLists_Generic\CSLists_Generic\obj\Debug\CSLists_Generic.pdb

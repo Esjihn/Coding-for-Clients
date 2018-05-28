@@ -1,0 +1,6 @@
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\bin\Debug\CSMaxOf5IntUserIn.exe.config
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\bin\Debug\CSMaxOf5IntUserIn.exe
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\bin\Debug\CSMaxOf5IntUserIn.pdb
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\obj\Debug\CSMaxOf5IntUserIn.csproj.CoreCompileInputs.cache
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\obj\Debug\CSMaxOf5IntUserIn.exe
+D:\C#\CSMaxOf5IntUserIn\CSMaxOf5IntUserIn\obj\Debug\CSMaxOf5IntUserIn.pdb

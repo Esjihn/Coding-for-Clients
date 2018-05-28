@@ -1,0 +1,7 @@
+D:\C#\CSGuessRandNum\CSGuessRandNum\obj\Debug\CSGuessRandNum.csprojAssemblyReference.cache
+D:\C#\CSGuessRandNum\CSGuessRandNum\obj\Debug\CSGuessRandNum.csproj.CoreCompileInputs.cache
+D:\C#\CSGuessRandNum\CSGuessRandNum\bin\Debug\CSGuessRandNum.exe.config
+D:\C#\CSGuessRandNum\CSGuessRandNum\bin\Debug\CSGuessRandNum.exe
+D:\C#\CSGuessRandNum\CSGuessRandNum\bin\Debug\CSGuessRandNum.pdb
+D:\C#\CSGuessRandNum\CSGuessRandNum\obj\Debug\CSGuessRandNum.exe
+D:\C#\CSGuessRandNum\CSGuessRandNum\obj\Debug\CSGuessRandNum.pdb

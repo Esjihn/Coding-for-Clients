@@ -1,0 +1,7 @@
+D:\C#\NumbersDivBy3\NumbersDivBy3\bin\Debug\NumbersDivBy3.exe.config
+D:\C#\NumbersDivBy3\NumbersDivBy3\bin\Debug\NumbersDivBy3.exe
+D:\C#\NumbersDivBy3\NumbersDivBy3\bin\Debug\NumbersDivBy3.pdb
+D:\C#\NumbersDivBy3\NumbersDivBy3\obj\Debug\NumbersDivBy3.csprojAssemblyReference.cache
+D:\C#\NumbersDivBy3\NumbersDivBy3\obj\Debug\NumbersDivBy3.csproj.CoreCompileInputs.cache
+D:\C#\NumbersDivBy3\NumbersDivBy3\obj\Debug\NumbersDivBy3.exe
+D:\C#\NumbersDivBy3\NumbersDivBy3\obj\Debug\NumbersDivBy3.pdb

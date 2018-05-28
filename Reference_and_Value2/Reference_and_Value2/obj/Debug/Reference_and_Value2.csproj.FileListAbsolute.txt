@@ -1,0 +1,6 @@
+D:\C#\Reference_and_Value2\Reference_and_Value2\bin\Debug\Reference_and_Value2.exe.config
+D:\C#\Reference_and_Value2\Reference_and_Value2\bin\Debug\Reference_and_Value2.exe
+D:\C#\Reference_and_Value2\Reference_and_Value2\bin\Debug\Reference_and_Value2.pdb
+D:\C#\Reference_and_Value2\Reference_and_Value2\obj\Debug\Reference_and_Value2.csproj.CoreCompileInputs.cache
+D:\C#\Reference_and_Value2\Reference_and_Value2\obj\Debug\Reference_and_Value2.exe
+D:\C#\Reference_and_Value2\Reference_and_Value2\obj\Debug\Reference_and_Value2.pdb

@@ -1,0 +1,7 @@
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\bin\Debug\ArraysCSPropandMethods.exe.config
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\bin\Debug\ArraysCSPropandMethods.exe
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\bin\Debug\ArraysCSPropandMethods.pdb
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\obj\Debug\ArraysCSPropandMethods.csprojAssemblyReference.cache
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\obj\Debug\ArraysCSPropandMethods.csproj.CoreCompileInputs.cache
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\obj\Debug\ArraysCSPropandMethods.exe
+D:\C#\ArraysCSPropandMethods\ArraysCSPropandMethods\obj\Debug\ArraysCSPropandMethods.pdb

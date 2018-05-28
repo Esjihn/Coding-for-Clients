@@ -1,0 +1,7 @@
+D:\C#\Reference_and_Value\Reference_and_Value\bin\Debug\Reference_and_Value.exe.config
+D:\C#\Reference_and_Value\Reference_and_Value\bin\Debug\Reference_and_Value.exe
+D:\C#\Reference_and_Value\Reference_and_Value\bin\Debug\Reference_and_Value.pdb
+D:\C#\Reference_and_Value\Reference_and_Value\obj\Debug\Reference_and_Value.csprojAssemblyReference.cache
+D:\C#\Reference_and_Value\Reference_and_Value\obj\Debug\Reference_and_Value.csproj.CoreCompileInputs.cache
+D:\C#\Reference_and_Value\Reference_and_Value\obj\Debug\Reference_and_Value.exe
+D:\C#\Reference_and_Value\Reference_and_Value\obj\Debug\Reference_and_Value.pdb

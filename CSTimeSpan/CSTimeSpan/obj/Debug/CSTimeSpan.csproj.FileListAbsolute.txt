@@ -1,0 +1,6 @@
+D:\C#\CSTimeSpan\CSTimeSpan\bin\Debug\CSTimeSpan.exe.config
+D:\C#\CSTimeSpan\CSTimeSpan\bin\Debug\CSTimeSpan.exe
+D:\C#\CSTimeSpan\CSTimeSpan\bin\Debug\CSTimeSpan.pdb
+D:\C#\CSTimeSpan\CSTimeSpan\obj\Debug\CSTimeSpan.csproj.CoreCompileInputs.cache
+D:\C#\CSTimeSpan\CSTimeSpan\obj\Debug\CSTimeSpan.exe
+D:\C#\CSTimeSpan\CSTimeSpan\obj\Debug\CSTimeSpan.pdb

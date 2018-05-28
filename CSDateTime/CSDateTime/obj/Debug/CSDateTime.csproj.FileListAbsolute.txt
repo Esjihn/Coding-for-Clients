@@ -1,0 +1,6 @@
+D:\C#\CSDateTime\CSDateTime\bin\Debug\CSDateTime.exe.config
+D:\C#\CSDateTime\CSDateTime\bin\Debug\CSDateTime.exe
+D:\C#\CSDateTime\CSDateTime\bin\Debug\CSDateTime.pdb
+D:\C#\CSDateTime\CSDateTime\obj\Debug\CSDateTime.csproj.CoreCompileInputs.cache
+D:\C#\CSDateTime\CSDateTime\obj\Debug\CSDateTime.exe
+D:\C#\CSDateTime\CSDateTime\obj\Debug\CSDateTime.pdb
