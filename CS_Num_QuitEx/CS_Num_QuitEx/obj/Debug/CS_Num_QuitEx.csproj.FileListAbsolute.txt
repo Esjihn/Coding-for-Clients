@@ -1,0 +1,6 @@
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\bin\Debug\CS_Num_QuitEx.exe.config
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\bin\Debug\CS_Num_QuitEx.exe
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\bin\Debug\CS_Num_QuitEx.pdb
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\obj\Debug\CS_Num_QuitEx.csproj.CoreCompileInputs.cache
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\obj\Debug\CS_Num_QuitEx.exe
+D:\C#\CS_Num_QuitEx\CS_Num_QuitEx\obj\Debug\CS_Num_QuitEx.pdb

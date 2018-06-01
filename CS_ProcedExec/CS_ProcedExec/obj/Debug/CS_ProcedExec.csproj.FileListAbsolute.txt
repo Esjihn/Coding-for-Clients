@@ -1,0 +1,7 @@
+D:\C#\CS_ProcedExec\CS_ProcedExec\bin\Debug\CS_ProcedExec.exe.config
+D:\C#\CS_ProcedExec\CS_ProcedExec\bin\Debug\CS_ProcedExec.exe
+D:\C#\CS_ProcedExec\CS_ProcedExec\bin\Debug\CS_ProcedExec.pdb
+D:\C#\CS_ProcedExec\CS_ProcedExec\obj\Debug\CS_ProcedExec.csprojAssemblyReference.cache
+D:\C#\CS_ProcedExec\CS_ProcedExec\obj\Debug\CS_ProcedExec.csproj.CoreCompileInputs.cache
+D:\C#\CS_ProcedExec\CS_ProcedExec\obj\Debug\CS_ProcedExec.exe
+D:\C#\CS_ProcedExec\CS_ProcedExec\obj\Debug\CS_ProcedExec.pdb

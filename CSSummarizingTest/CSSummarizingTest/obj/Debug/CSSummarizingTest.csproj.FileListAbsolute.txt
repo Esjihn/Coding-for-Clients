@@ -1,0 +1,6 @@
+D:\C#\CSSummarizingTest\CSSummarizingTest\bin\Debug\CSSummarizingTest.exe.config
+D:\C#\CSSummarizingTest\CSSummarizingTest\bin\Debug\CSSummarizingTest.exe
+D:\C#\CSSummarizingTest\CSSummarizingTest\bin\Debug\CSSummarizingTest.pdb
+D:\C#\CSSummarizingTest\CSSummarizingTest\obj\Debug\CSSummarizingTest.csproj.CoreCompileInputs.cache
+D:\C#\CSSummarizingTest\CSSummarizingTest\obj\Debug\CSSummarizingTest.exe
+D:\C#\CSSummarizingTest\CSSummarizingTest\obj\Debug\CSSummarizingTest.pdb
