@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1528054248 source:d:\onedrive\year 2\it3348\u03\friendclasses\main.cpp
+	<iostream>
+	"test.h"
+
+1528055053 d:\onedrive\year 2\it3348\u03\friendclasses\test.h
+
+1528054022 source:d:\onedrive\year 2\it3348\u03\friendclasses\test.cpp
+	"test.h"
+

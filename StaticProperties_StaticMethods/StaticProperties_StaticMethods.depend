@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1528003616 source:d:\onedrive\year 2\it3348\u03\staticproperties_staticmethods\user.cpp
+	"user.h"
+
+1528004027 d:\onedrive\year 2\it3348\u03\staticproperties_staticmethods\user.h
+
+1528003082 source:d:\onedrive\year 2\it3348\u03\staticproperties_staticmethods\main.cpp
+	<iostream>
+	"user.h"
+

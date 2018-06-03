@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527396693 source:d:\c++\exercises-to-entire-course-in-one-file\exercise11\classes\main.cpp
+	<iostream>
+	"people.h"
+
+1527396740 d:\c++\exercises-to-entire-course-in-one-file\exercise11\classes\people.h
+
+1527397097 source:d:\c++\exercises-to-entire-course-in-one-file\exercise11\classes\people.cpp
+	"people.h"
+	<iostream>
+
