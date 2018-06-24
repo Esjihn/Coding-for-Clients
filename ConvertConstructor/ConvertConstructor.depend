@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1528056951 source:d:\c++\exercises-to-entire-course-in-one-file\exercise11\convertconstructor\integer.cpp
+	"integer.h"
+
+1528057136 d:\c++\exercises-to-entire-course-in-one-file\exercise11\convertconstructor\integer.h
+
+1528057103 source:d:\c++\exercises-to-entire-course-in-one-file\exercise11\convertconstructor\main.cpp
+	<iostream>
+	"integer.h"
+
